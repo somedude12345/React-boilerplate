@@ -1,0 +1,160 @@
+
+*{
+  margin: 0;
+  padding:0;
+  overflow-x: hidden;
+}
+.App-logo {
+  height: 100vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.App-header2 {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+div.header{
+  display: flex;
+  flex-direction: column;
+}
+h3{
+  font-size: calc(10px + 5vmin);
+}
+h3,
+p{
+  padding:20px
+}
+p{
+  opacity: 80%;
+  width: 70%;
+}
+
+@media all and (max-width:750px) {
+  .App-header {
+    flex-wrap: wrap;
+  }
+  .App-header2 {
+    flex-wrap:wrap-reverse
+  }
+  div.options{
+   
+    flex-wrap: wrap;
+  }
+}
+
+button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  width: 30%;
+  margin: 15px;
+  
+ }
+ 
+ button:hover {
+  background-color: #61DAFB;
+  color: #fff;
+  transform: translateY(-7px);
+ }
+
+ 
+ 
+ button:active {
+  background-color: #88E0EF;
+  color: #fff;
+  transform: translateY(-1px);
+ }
+
+ div.MenuBar{
+   background-color: #282c34;
+
+ }
+ div.hamburger-container{
+   margin:10px;
+   padding: 10px;
+ }
+ h3.header{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+   background-color: #282c34;
+  
+ }
+ div.three-container{
+   background: #282c34;
+   color: #fff;
+ }
+ ::-webkit-scrollbar {
+  display: none;
+}
+div.options p{
+  width: 50%;
+  text-align: center;
+  margin-top: -15px;
+}
+div.options{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+
+}
+div.one,
+div.two,
+div.three{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+div.one h3,
+div.two h3,
+div.three h3{
+  font-size: 30px;
+}
